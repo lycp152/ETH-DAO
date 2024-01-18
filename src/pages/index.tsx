@@ -30,7 +30,7 @@ const Home: NextPage = () => {
     return (
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1 className={styles.title}>Welcome to micoy Fassion DAO !!</h1>
+          <h1 className={styles.title}>Welcome to micoy Fashion DAO !!</h1>
           <div className={styles.connect}>
             <ConnectWallet />
           </div>
