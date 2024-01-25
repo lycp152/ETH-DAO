@@ -28,7 +28,9 @@ const token = sdk.getContract(ERCTokenAddress, "token");
 
   try {
     // ウォレットのトークン残高を取得します
-    const ownedTokenBalance = await (await token).balanceOf(ownerWalletAddress);
+    const ownedTokenBalance = await (
+      await token
+    ).balanceOf(ownerWalletAddress!);
 
     // 保有する供給量の 90% を取得します
     const ownedAmount = ownedTokenBalance.displayValue;
