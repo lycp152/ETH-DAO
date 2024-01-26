@@ -20,19 +20,19 @@ const Home: NextPage = () => {
 
   // editionDrop コントラクトを初期化
   const editionDrop = useContract(
-    "0xFA8e64e19cc3055f816b11265e93F037732c8e58",
+    "0xCDec96785941c8Aa7A6e40ccB108b657df69Afff",
     "edition-drop"
   ).contract;
 
   // トークンコントラクトの初期化
   const token = useContract(
-    "0x2e9E3B9336Db994A23AFf7DF358Be6E6BbeFDE0c",
+    "0x9f7d0ADC028FF4Ec4B47F956708AEEB5F11f978F",
     "token"
   ).contract;
 
   // 投票コントラクトの初期化
   const vote = useContract(
-    "0xb54947f496d09BAd040B6AAc1EC63199b9e86fC3",
+    "0x49703b50Df5b9B9f268dB5600e58430FAe36aDB6",
     "vote"
   ).contract;
 
