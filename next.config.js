@@ -3,4 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+module.exports = module.exports = {
+  pageExtensions: ["js", "jsx", "ts", "tsx", "mdx"],
+  nextConfig,
+};
