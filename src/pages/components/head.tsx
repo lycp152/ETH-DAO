@@ -36,3 +36,5 @@ export const HeadComponent = () => {
     </Head>
   );
 };
+
+export default HeadComponent;
